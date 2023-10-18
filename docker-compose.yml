@@ -15,7 +15,7 @@ services:
     volumes:
       - .:/quize
     ports:
-      - "2425:2425"
+      - "2525:2525"
     command:
       - uvicorn
       - main:app
